@@ -1,0 +1,43 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff:
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+*.swo
+
+# Media and static files
+/static/
+/media/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Coverage reports
+.coverage
+*.coveragerc
